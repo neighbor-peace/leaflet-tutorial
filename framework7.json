@@ -1,0 +1,32 @@
+{
+  "cwd": "/home/mike/repos/leaflet-tutorial",
+  "type": [
+    "cordova"
+  ],
+  "name": "Leaflet Tutorial",
+  "pkg": "io.framework7.myapp",
+  "framework": "react",
+  "template": "single-view",
+  "cssPreProcessor": "less",
+  "bundler": "vite",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
